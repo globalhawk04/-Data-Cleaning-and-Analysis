@@ -70,50 +70,6 @@ Functionality: Although using placeholder file names, the logic of this script i
 
 Dependencies: pandas, csv.
 
-Prerequisites
-
-To run these scripts, you will need Python 3 installed. You will also need to install the pandas library.
-
-You can install the necessary library using pip:
-
-code
-Bash
-download
-content_copy
-expand_less
-pip install pandas
-Usage
-
-Clone the repository:
-
-code
-Bash
-download
-content_copy
-expand_less
-git clone https://github.com/your-username/data-cleaning-and-analysis.git
-cd data-cleaning-and-analysis
-
-Prepare your input files:
-
-Place the required input CSV files (e.g., All_Media.csv, transport_main.csv) in the same directory as the scripts.
-
-Ensure the CSV files are formatted as expected by the script you intend to run.
-
-Modify the script:
-
-Open the script you want to use and update any hardcoded file names or paths to match your own files.
-
-Run the script from your terminal:
-
-code
-Bash
-download
-content_copy
-expand_less
-python cision_split.py
-General Notes
-
 Hardcoded Filenames: Most scripts contain hardcoded input and output filenames. You will need to modify these variables within the scripts to suit your needs.
 
 Data Structure: The scripts are tailored to specific CSV structures. If your data format differs, you will need to adjust the column indices or header names accordingly.
